@@ -37,11 +37,11 @@
             echo "You've failed";
             break;
     } */
-        //Ternary Operator
+    /*    //Ternary Operator
     $grade = $marks > 74.5 ? 'Grade A' : "You've failed!";
     echo $grade;
 
-            //short form
+           //short form
     echo $marks ?: 'No Marks';
             //long form
     echo $marks ? $marks : 'No Marks';
@@ -49,3 +49,11 @@
     echo $marks ?? 'No Marks';
             //lomg form : Null coalescing operator
     echo isset($marks) ?: 'No Marks';
+    */
+    /*
+    Conventions
+    1. TitleCase - EveryNewWordFirstLetterIsCapital
+    2. CamelCase - firstWordFirstLetterIsSimleOthersAreCapital
+    3. Snake_Case/Underscore_Case - space_is_replaced_by_underscore_ans_all_letters_are_in_simple_form
+    4. Kebab-Case - space-is-replaced-by-dash-ans-all-letters-are-in-simple-form
+    */
