@@ -9,6 +9,7 @@
         Null - 0 False
        */
     /*
+
     $marks = 80;
         //if conditions
      if ($marks > 74.5) {
@@ -20,6 +21,7 @@
     } else {
         echo "You've failed!";
     } */
+
         // switch statements
     /* switch ($marks) {
         case ($marks > 74.5):
@@ -38,6 +40,7 @@
             echo "You've failed";
             break;
     } */
+
     /*    //Ternary Operator
     $grade = $marks > 74.5 ? 'Grade A' : "You've failed!";
     echo $grade;
@@ -52,6 +55,7 @@
     echo isset($marks) ?: 'No Marks';
     */
     /*
+
     Conventions
     1. TitleCase - EveryNewWordFirstLetterIsCapital
     2. CamelCase - firstWordFirstLetterIsSimleOthersAreCapital
@@ -94,5 +98,39 @@
     }
     $grade = getGrades(90 , "King");
     echo $grade;
+    */
+
+    /*
+    //Arrays
+    //1dimenisonal array
+    $marks = [50, 80, 88];
+    //2dimenisonal array
+    $students = [
+                    [Zayan, 50, 60, 80],
+                    [Ahmed, 60, 80, 90],
+                ]
+    //3dimenisonal array
+    $students = [
+                    [Zayan, 50, 60,
+                        ["Chemistry", "Physics"]
+                    ],
+                    [Ahmed, 60, 80, 90],
+                ]
+    */
+    /*
+    //         0   1   2
+    //$marks = [50, 80, 88, "Zayan"];
+    //give any index - Associative arrays
+    $marks = [
+                0 =>50,
+                1 => 80,
+                2 => 88,
+                77 => "Zayan",
+                "Ahmed" => 7
+            ];
+    //$marks[5] = 90;
+    //$marks[] = 90;
+    echo $marks["Ahmed"];
+    //var_dump($marks);
     */
 ?>
