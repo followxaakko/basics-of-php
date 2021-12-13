@@ -7,10 +7,11 @@
         Float - 25.5 7.14
         Array - [1,2,3]
         Null - 0 False
-*/
+       */
+    /*
     $marks = 80;
         //if conditions
-    /* if ($marks > 74.5) {
+     if ($marks > 74.5) {
         echo "Grade A";
     } else if ($marks > 64.5) {
         echo "Grade B";
