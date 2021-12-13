@@ -1,6 +1,6 @@
 <?php
-    //variables
 /*
+    //variables
         string - "How are you"
         Integers - whole 256
         Boolean - True / False / 1 / 0
@@ -211,5 +211,6 @@
         } else {
             return "$name has failed!";
         }
-    } */
+    }
+*/
 ?>
